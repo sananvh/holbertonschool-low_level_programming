@@ -4,10 +4,6 @@
 
 /**
  * main - Entry point
- *
- * Description: Assigns a random number to variable n and prints
- * whether it is positive, negative, or zero.
- *
  * Return: 0 (Success)
  */
 int main(void)
@@ -32,4 +28,3 @@ int main(void)
 
     return (0);
 }
-
