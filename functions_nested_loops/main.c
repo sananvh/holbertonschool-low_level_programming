@@ -1,12 +1,12 @@
+#include "main.h"
 
-### `main.h` (Header File)
-
-```c
-#ifndef MAIN_H
-#define MAIN_H
-
-int _putchar(char c);
-void print_alphabet_x10(void);
-
-#endif /* MAIN_H */
-
+/**
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
