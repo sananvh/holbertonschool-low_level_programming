@@ -3,7 +3,8 @@
 /**
  * main - Prints the name of the program, followed by a new line.
  * @argc: Argument count (unused)
- * @argv: Argument vector (array of strings containing program name and arguments)
+ * @argv: Argument vector (array of strings containing program name and
+ * arguments)
  *
  * Return: Always 0 (Success)
  */
