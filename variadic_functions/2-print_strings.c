@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
+#include <stdarg.h> /* Include this header for va_start, va_arg, va_end */
 
 /**
  * print_strings - Prints strings, followed by a new line.
@@ -12,11 +13,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
     unsigned int i;
     char *str;
 
-    va_start(args, n);
+    va_start(args, n); /* Initialize the argument list */
 
     for (i = 0; i < n; i++)
     {
-        str = va_arg(args, char *);
+        str = va_arg(args, char *); /* Retrieve the next string */
+
         if (str == NULL)
             printf("(nil)");
         else
@@ -26,7 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
             printf("%s", separator);
     }
 
-    va_end(args);
+    va_end(args); /* Clean up the argument list */
     printf("\n");
 }
 
