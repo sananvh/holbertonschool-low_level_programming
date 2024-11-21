@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
- * main - Check the code
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
@@ -16,4 +16,3 @@ int main(void)
     printf("%d\n", sum);
     return (0);
 }
-
